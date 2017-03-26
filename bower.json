@@ -1,0 +1,11 @@
+{
+  "name": "calculator",
+  "description": "Angular seed project",
+  "authors": [
+    "Donny"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.3"
+  }
+}
