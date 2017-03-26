@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>calculator</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 
     <script src="bower_components/angular/angular.min.js"></script>
@@ -12,6 +13,31 @@
 
 </head>
 <body ng-app="calculator" ng-controller="AppController">
-<h2>{{hello}}</h2>
+<div class="calculator">
+    <div class="result">
+        <input type="text" class="result-input" value="计算器布局示例">
+    </div>
+    <div class="keyboard">
+        <!-- hack css! do not change this! -->
+        <button class="btn btn-default key">1
+        </button><button class="btn btn-default key">2
+    </button><button class="btn btn-default key">3
+    </button><button class="btn btn-default key">4</button>
+        <button class="btn btn-default key">5
+        </button><button class="btn btn-default key">6
+    </button><button class="btn btn-default key">7
+    </button><button class="btn btn-default key">8</button>
+        <button class="btn btn-default key">9
+        </button><button class="btn btn-default key">10
+    </button><button class="btn btn-default key">11
+    </button><button class="btn btn-default key">12</button>
+        <button class="btn btn-default key">13
+        </button><button class="btn btn-default key">14
+    </button><button class="btn btn-default key">15
+    </button><button class="btn btn-default key">16</button>
+        <!-- hack css! do not change this! -->
+    </div>
+    <div class="clear"></div>
+</div>
 </body>
 </html>
